@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/partials/created.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&amp;family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="modal" class="point">
+        <div class="content">
+            <img class="sucess" src="./images/success-background.svg">
+            <div class="middle">
+                <img src="./images/icons/success-check-icon.svg">
+                <h1>Cadastro salvo!</h1>
+            </div>
+            <a id="study" class="study" href="/study?subject={{filters.subject}}&weekday={{filters.weekday}}&time={{filters.time}}">
+        </div>
+    </div>   
+
+    <script>
+
+    setTimeout(() => {
+    document.querySelector("#study").click()
+    }, 2000);
+
+    </script>
+</body>
+</html>

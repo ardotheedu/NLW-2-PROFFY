@@ -1,0 +1,18 @@
+#modal {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--color-primary);
+}
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    color: var(--color-title-in-primary);
+}
+.content .sucess {
+    width: 80vw;
+    height: 100vh;
+    position: absolute;
+}
