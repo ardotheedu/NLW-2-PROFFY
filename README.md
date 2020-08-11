@@ -1,6 +1,6 @@
 # NLW-2-PROFFY
  
- Projeto desenvolvido durante a 1ª Next Level Week, com o professor da RockeatSeat, Mayk Brito.
+ Projeto desenvolvido durante a 2ª Next Level Week, com o professor da RockeatSeat, Mayk Brito.
 
 Plataforma que tem como objetivo auxilia a conexão entre professores e alunos
 
