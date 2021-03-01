@@ -1,31 +1,70 @@
-# NLW-2-PROFFY
- 
- Projeto desenvolvido durante a 2ª Next Level Week, com o professor da RockeatSeat, Mayk Brito.
+<h1 align="center">
+  Proffy
+</h1>
 
-Plataforma que tem como objetivo auxilia a conexão entre professores e alunos
+<p align="center">
+  Find teachers all over of the world
+</p>
 
-Tecnologias usadas:
----------------------------
-  - HTML
-  - CSS
-  - JavaScript
-  - [NodeJS][1]
-  - [Nodemon][2]
-  - [Nunjucks][3]
- 
- Pagina inicial
- --------------
-![ScreenShot](https://github.com/ardotheedu/NLW-2-PROFFY/blob/master/public/images/aplicacao/FireShot%20Capture%20034%20-%20%20-%20127.0.0.1.png)
- Tela de Sucesso
- --------------
-![ScreenShot](https://github.com/ardotheedu/NLW-2-PROFFY/blob/master/public/images/aplicacao/FireShot%20Capture%20036%20-%20%20-%20127.0.0.1.png)
- Tela de cadastro
- ----------------
-![ScreenShot](https://github.com/ardotheedu/NLW-2-PROFFY/blob/master/public/images/aplicacao/FireShot%20Capture%20035%20-%20%20-%20127.0.0.1.png)
-  Professores Disponiveis
-  -----------------------
-![ScreenShot](https://github.com/ardotheedu/NLW-2-PROFFY/blob/master/public/images/aplicacao/FireShot%20Capture%20033%20-%20%20-%20127.0.0.1.png)
 
- [1]: https://nodejs.org/ "NodeJS"
- [2]: https://nodemon.io/
- [3]: https://mozilla.github.io/nunjucks/
+## Table of Contents
+* [Introduction](#introduction)
+* [Tecnologies](#tecnologies)
+* [Features](#features)
+* [How To Use](#how-to-use)
+
+
+## Introduction
+
+The app goal is to help connect teacher and students.
+
+## Tecnologies
+
+* NodeJS
+* Nunjucks
+* Nodemon
+
+## Features
+
+A few of the things you can do with Proffy:
+
+* Find teachers.
+* Give one-to-one classes.
+* Filter teachers by time, subject and day.
+* You can define how much you'll charge for your classes
+
+<p align="center">
+  <img src = "https://github.com/ardotheedu/NLW-2-PROFFY/blob/master/public/images/aplicacao/FireShot%20Capture%20034%20-%20%20-%20127.0.0.1.png" width=700>
+</p>
+
+<p align="center">
+  <img src = "https://github.com/ardotheedu/NLW-2-PROFFY/blob/master/public/images/aplicacao/FireShot%20Capture%20033%20-%20%20-%20127.0.0.1.png" width=700>
+</p>
+
+<p align="center">
+  <img src = "https://github.com/ardotheedu/NLW-2-PROFFY/blob/master/public/images/aplicacao/FireShot%20Capture%20035%20-%20%20-%20127.0.0.1.png" width=700>
+</p>
+
+<p align="center">
+  <img src = "https://github.com/ardotheedu/NLW-2-PROFFY/blob/master/public/images/aplicacao/FireShot%20Capture%20036%20-%20%20-%20127.0.0.1.png" width=700>
+</p>
+
+
+
+## How To Use
+
+To clone and run this application, you'll need Git and Node.js (which comes with npm) installed on your computer. From your command line:
+```bash
+# Clone this repository
+$ git clone github.com/ardotheedu/nlw-2-proffy
+
+# Go into the repository
+$ cd nlw-2-proffy
+
+# Install dependencies
+$ yarn
+
+# Run the app
+$ yarn start
+```
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
